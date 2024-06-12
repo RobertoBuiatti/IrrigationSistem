@@ -1,0 +1,42 @@
+.menu {
+    position: fixed;
+    top: 1em; /* Distância do topo */
+    left: 1em; /* Distância da esquerda */
+    display: flex;
+    flex-direction: column; /* Alinha os itens verticalmente */
+    align-items: start; /* Alinha os itens à esquerda */
+    background-color: #212529;
+    color: white;
+    padding: 10px;
+    border-radius: 40px;
+    z-index: 999; /* Garante que o menu esteja sobre outros elementos */
+}
+
+.menu-icon {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.menu-links {
+    display: none;
+    background-color: #212529;
+    list-style-type: none;
+    padding: 10px;
+    margin: 0;
+    border-radius: 40px;
+    width: max-content; /* Define a largura do menu conforme o conteúdo */
+}
+
+.menu-links li {
+    padding: 10px;
+}
+
+.menu-links li a {
+    color: white;
+    text-decoration: none;
+}
+
+/* Exibir os links ao passar o mouse sobre o ícone */
+.menu:hover .menu-links {
+    display: block;
+}

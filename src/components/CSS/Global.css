@@ -1,0 +1,90 @@
+/* Base styles */
+body {
+  margin: 2em;
+  padding: 1em;
+  font-family: Arial, sans-serif;
+  color: inherit; /* Inherit from system default or theme */
+  background-color: inherit; /* Inherit from system default or theme */
+}
+
+/* Links */
+a {
+  color: inherit; /* Inherit from system default or theme */
+  text-decoration: none; /* Remove default underline */
+}
+
+a:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
+
+/* Form elements */
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px; /* Add subtle rounded corners */
+  box-sizing: border-box;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus {
+  outline: 2px solid #007bff; /* Blue focus outline */
+}
+
+/* Buttons */
+button {
+  background-color: #007bff; /* Blue by default */
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border: none; /* Remove default border */
+  border-radius: 4px; /* Add rounded corners */
+  transition: background-color 0.3s ease; /* Smooth color transition */
+}
+
+button:hover {
+  background-color: #0069d9; /* Darker blue on hover */
+}
+
+/* Success message */
+.success-message {
+  color: green;
+  font-weight: bold; /* Add emphasis */
+  margin-bottom: 1em; /* Add some spacing below */
+}
+
+/* System theme handling (using prefers-color-scheme) */
+@media (prefers-color-scheme: dark) {
+  body {
+    color: #fff; /* Light text for dark theme */
+    background-color: #212529; /* Dark background color */
+  }
+
+  a {
+    color: #fff; /* Light text for dark theme in links */
+  }
+
+  input[type="text"],
+  input[type="email"],
+  input[type="password"] {
+    border-color: #555; /* Gray border for dark theme */
+  }
+
+  button {
+    background-color: #38aadc; /* Light blue for dark theme */
+  }
+
+  button:hover {
+    background-color: #2e8baf; /* Darker blue on hover in dark theme */
+  }
+}

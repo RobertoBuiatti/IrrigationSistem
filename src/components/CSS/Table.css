@@ -1,0 +1,45 @@
+/* Table styles */
+.custom-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px; /* Adiciona margem superior */
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #333;
+    text-align: left;
+    padding: 8px;
+}
+
+.custom-table th {
+    background-color: #212529;
+    font-weight: bold;
+}
+
+/* Estilos para o quadrado de status */
+.status-square {
+    width: 0.7em; /* Tamanho do quadrado */
+    height: 0.7em;
+    display: inline-block;
+    margin-right: 5px; /* Espaçamento entre o quadrado e o texto */
+    position: relative; /* Alterado para relativo para que o quadrado fique dentro da célula */
+    top: center; /* Ajuste para alinhar verticalmente com o texto */
+}
+
+/* Estilos para o quadrado de status verde */
+.status-square.inicio {
+    background-color: green;
+    color: green; /* Cor do texto verde */
+}
+
+/* Estilos para o quadrado de status amarelo */
+.status-square.espera {
+    background-color: yellow;
+    color: yellow; /* Cor do texto amarelo */
+}
+
+/* Estilos para o quadrado de status vermelho */
+.status-square.batido {
+    background-color: red;
+    color: red; /* Cor do texto vermelho */
+}
