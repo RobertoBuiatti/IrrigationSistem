@@ -1,0 +1,113 @@
+1. Definição do Projeto
+Título do Projeto: Sistema de Informações de Irrigação
+
+Objetivo: Desenvolver um sistema para capturar, visualizar e exportar informações de irrigação utilizando React.
+
+2. Backlog do Produto
+Setup Inicial do Projeto
+
+Configurar o ambiente de desenvolvimento
+Criar a estrutura inicial do projeto React
+Instalar dependências necessárias (React, XLSX, etc.)
+Desenvolvimento do Formulário de Entrada
+
+Criar componentes de formulário para entrada de dados
+Gerenciar estados dos componentes
+Implementar a lógica de submissão de formulário
+Validação e Formatação de Dados
+
+Implementar validação dos campos de entrada
+Formatar data e hora corretamente
+Armazenamento de Dados
+
+Armazenar dados de entrada no estado local
+Adicionar novos registros à tabela de dados
+Exportação para Excel
+
+Implementar função de exportação de dados para Excel usando XLSX
+Adicionar botão de exportação
+Componente Tabela
+
+Criar componente para exibir dados em formato de tabela
+Estilizar tabela com CSS
+Menu de Navegação
+
+Implementar componente de menu para navegação
+Estilização e Usabilidade
+
+Adicionar CSS para estilização geral
+Garantir responsividade e usabilidade
+3. Sprints Planejadas
+Sprint 1: Configuração Inicial e Formulário de Entrada (1 semana)
+
+Objetivo: Configurar o ambiente de desenvolvimento e criar o formulário de entrada.
+Itens do Backlog:
+Configuração do ambiente de desenvolvimento
+Criação da estrutura inicial do projeto
+Implementação dos componentes de formulário (campos de entrada)
+Sprint 2: Validação de Dados e Armazenamento (1 semana)
+
+Objetivo: Implementar a validação de dados e armazenar os dados no estado local.
+Itens do Backlog:
+Implementação de validação dos campos de entrada
+Formatação de data e hora
+Armazenamento de dados no estado local
+Sprint 3: Componente Tabela e Exportação para Excel (1 semana)
+
+Objetivo: Criar o componente de tabela e implementar a exportação para Excel.
+Itens do Backlog:
+Criação do componente de tabela para exibir dados
+Implementação da função de exportação para Excel
+Adição do botão de exportação
+Sprint 4: Menu de Navegação e Estilização (1 semana)
+
+Objetivo: Implementar o menu de navegação e adicionar estilização.
+Itens do Backlog:
+Implementação do componente de menu
+Adição de CSS para estilização geral
+Garantia de responsividade e usabilidade
+4. Cerimônias Scrum Simplificadas
+Reuniões Diárias (Daily Scrum):
+
+10-15 minutos no início do dia para revisar o que foi feito ontem, o que será feito hoje e identificar qualquer impedimento.
+Planejamento da Sprint (Sprint Planning):
+
+No início de cada Sprint, dedique 1-2 horas para definir os itens do backlog que serão trabalhados e criar um plano detalhado para a Sprint.
+Revisão da Sprint (Sprint Review):
+
+No final de cada Sprint, reserve 1-2 horas para revisar o que foi concluído, demonstrar as funcionalidades e coletar feedback.
+Retrospectiva da Sprint (Sprint Retrospective):
+
+Após a revisão da Sprint, dedique 30 minutos a 1 hora para refletir sobre o que funcionou bem, o que não funcionou e como melhorar.
+5. Ferramentas Utilizadas
+Jira/Trello: Para gerenciamento do backlog e Sprints.
+Notion/OneNote: Para anotações e documentação.
+Git: Para controle de versão do software.
+6. Monitoramento e Relatórios
+Quadro Kanban:
+
+Utilize um quadro Kanban no Trello ou Jira para visualizar o progresso das tarefas.
+Relatórios de Progresso:
+
+Crie um relatório semanal de progresso para você mesmo, destacando as tarefas concluídas, as em andamento e quaisquer impedimentos.
+Resumo das Sprints
+Sprint 1:
+
+Configuração do ambiente de desenvolvimento
+Criação da estrutura inicial do projeto
+Implementação dos componentes de formulário
+Sprint 2:
+
+Implementação de validação dos campos de entrada
+Formatação de data e hora
+Armazenamento de dados no estado local
+Sprint 3:
+
+Criação do componente de tabela
+Implementação da função de exportação para Excel
+Adição do botão de exportação
+Sprint 4:
+
+Implementação do componente de menu
+Adição de CSS para estilização geral
+Garantia de responsividade e usabilidade
