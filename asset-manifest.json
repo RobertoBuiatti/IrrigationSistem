@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/IrrigationSistem/static/css/main.5203c3ac.css",
+    "main.js": "/IrrigationSistem/static/js/main.28882ad2.js",
+    "static/js/453.45c9828d.chunk.js": "/IrrigationSistem/static/js/453.45c9828d.chunk.js",
+    "index.html": "/IrrigationSistem/index.html",
+    "main.5203c3ac.css.map": "/IrrigationSistem/static/css/main.5203c3ac.css.map",
+    "main.28882ad2.js.map": "/IrrigationSistem/static/js/main.28882ad2.js.map",
+    "453.45c9828d.chunk.js.map": "/IrrigationSistem/static/js/453.45c9828d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5203c3ac.css",
+    "static/js/main.28882ad2.js"
+  ]
+}
